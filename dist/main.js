@@ -13,9 +13,9 @@
 /*!*********************!*\
   !*** ./src/main.js ***!
   \*********************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\nvar _client = __webpack_require__(/*! @apollo/client */ \"./node_modules/@apollo/client/index.js\");\nconsole.log(new _client.ApolloClient({\n  cache: new _client.InMemoryCache()\n}));\n\n//# sourceURL=webpack://expose-loader-example/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _apollo_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @apollo/client */ \"./node_modules/@apollo/client/core/ApolloClient.js\");\n/* harmony import */ var _apollo_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @apollo/client */ \"./node_modules/@apollo/client/cache/inmemory/inMemoryCache.js\");\n\n\nconsole.log(new _apollo_client__WEBPACK_IMPORTED_MODULE_0__.ApolloClient({cache: new _apollo_client__WEBPACK_IMPORTED_MODULE_1__.InMemoryCache()}));\n\n\n//# sourceURL=webpack://expose-loader-example/./src/main.js?");
 
 /***/ })
 
