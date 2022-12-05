@@ -1,0 +1,41 @@
+Arguments: 
+  /home/gsartorelli/.nvm/versions/node/v10.24.1/bin/node /home/gsartorelli/.nvm/versions/node/v10.24.1/bin/yarn add webpack-expose-loader
+
+PATH: 
+  /home/gsartorelli/.nvm/versions/node/v10.24.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/gsartorelli/.config/composer/vendor/bin:/home/gsartorelli/local-dev/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  10.24.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/webpack-expose-loader: Not found
+      at Request.params.callback [as _callback] (/home/gsartorelli/.nvm/versions/node/v10.24.1/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/home/gsartorelli/.nvm/versions/node/v10.24.1/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/home/gsartorelli/.nvm/versions/node/v10.24.1/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/home/gsartorelli/.nvm/versions/node/v10.24.1/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "expose-loader-example",
+    "version": "0.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
