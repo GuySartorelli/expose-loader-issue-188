@@ -30,4 +30,17 @@ module.exports = [
             }
         }
     },
+    {
+        name: 'secondary',
+        entry: {
+            secondary: `${src}/secondary.js`,
+        },
+        output: {
+            path: path.resolve() + '/dist',
+            filename: '[name].js',
+        },
+        externals: {
+            '@apollo/client': 'ApolloClient',
+        }
+    },
 ];
